@@ -32,10 +32,11 @@ DEFAULT_HEADERS = OrderedDict(
         ("User-Agent", DEFAULT_USER_AGENT),
         (
             "Accept",
-            "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "text/html,image/webp,image/apng,*/*;q=0.8",
         ),
         ("Accept-Language", "en-US,en;q=0.9"),
         ("Accept-Encoding", "gzip, deflate"),
+        ("Content-Type", "application/json; charset=utf-8"),
     )
 )
 
